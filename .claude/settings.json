@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(git status)",
+      "Bash(git diff)",
+      "Bash(git log:*)",
+      "Bash(git branch)",
+      "Bash(npm run:*)",
+      "Bash(npm test:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(rg:*)",
+      "Bash(mkdir:*)",
+      "Bash(gh:*)",
+      "Bash(ps:*)",
+      "Bash(netstat:*)",
+      "Bash(lsof:*)",
+      "Bash(du:*)",
+      "Bash(wc:*)",
+      "Edit(*)",
+      "MultiEdit(*)",
+      "Write(*)"
+    ]
+  },
+  "includeCoAuthoredBy": false
+}
