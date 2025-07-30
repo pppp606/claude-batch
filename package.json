@@ -2,7 +2,7 @@
   "name": "claude-batch",
   "version": "1.0.0",
   "bin": {
-    "claude-batch": "./index.js"
+    "claude-batch": "./src/index.js"
   },
   "scripts": {
     "test": "jest",
@@ -17,7 +17,7 @@
     "testEnvironment": "node",
     "testMatch": ["**/__tests__/**/*.test.js"],
     "collectCoverageFrom": [
-      "*.js",
+      "src/*.js",
       "!jest.config.js"
     ]
   }

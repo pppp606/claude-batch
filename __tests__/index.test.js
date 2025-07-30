@@ -7,7 +7,7 @@ const {
   prepareTempFile,
   buildClaudeArgs,
   main
-} = require('../lib');
+} = require('../src/lib');
 
 // Mock dependencies
 jest.mock('fs');

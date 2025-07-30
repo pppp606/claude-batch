@@ -23,7 +23,7 @@ claude-batch -p --model sonnet /notify "42" --hook ./notify-done.sh
 ```
 
 This will:
-1.	Replace #$ARGUMENTS in .claude/commands/notify.md
+1.	Replace #$ARGUMENTS in .claude/commands/notify.md 42
 2.	Execute the resulting prompt using Claude
 3.	Save the output to a temporary file
 4.	Invoke the specified hook script, passing the output file path as its first argument
